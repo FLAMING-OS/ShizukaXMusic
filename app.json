@@ -1,0 +1,78 @@
+{
+    "name": "ShizukaXMusic",
+    "description": "A Telegram Music Player Bot, written in Python with Pyrogram and Pyrogram.",
+    "logo": "https://te.legra.ph/file/9378f5199c944a2284d86.jpg",
+    "keywords": [
+    "python3",
+    "telegram",
+    "bot",
+    "AnonX",
+    "MusicBot",
+    "telegram-bot",
+    "pyrogram"
+    ],
+    "env": {
+      "API_ID": {
+        "description": "𝐆𝐄𝐓 𝐀𝐏𝐈 𝐈𝐃 𝐅𝐑𝐎𝐌 https://my.telegram.org",
+        "value": "14863874",
+        "required": true
+      },
+      "API_HASH": {
+        "description": "𝐆𝐄𝐓 𝐀𝐏𝐈 𝐇𝐀𝐒𝐇 𝐅𝐑𝐎𝐌 https://my.telegram.org",
+        "value": "3b5d73f27080334a1d730087b552519b",
+        "required": true
+      },
+      "BOT_TOKEN": {
+        "description": "𝐆𝐄𝐓 𝐁𝐎𝐓 𝐓𝐎𝐊𝐄𝐍 𝐅𝐑𝐎𝐌 𝐁𝐎𝐓 𝐅𝐀𝐓𝐇𝐄𝐑",
+        "value": "6187054232:AAHrYgO7P4gGGNyn2LT4hqgRInh7157xCyE",
+        "required": true
+      },
+      "MONGO_DB_URI": {
+        "description": "𝐆𝐄𝐓 𝐀 𝐌𝐎𝐍𝐆𝐎𝐃𝐁 𝐔𝐑𝐋 𝐅𝐑𝐎𝐌 https://cloud.mongodb.com. 𝐈𝐅 𝐘𝐎𝐔 𝐃𝐎𝐍𝐓 𝐇𝐀𝐕𝐄 𝐓𝐇𝐄𝐍 𝐔𝐒𝐄 𝐀𝐋𝐑𝐄𝐀𝐃𝐘 𝐅𝐈𝐋𝐋𝐄𝐃 𝐌𝐎𝐍𝐆𝐎.",
+        "value": "mongodb+srv://hnyx:wywyw2@cluster0.9dxlslv.mongodb.net/?retryWrites=true&w=majority",
+        "required": true
+      },
+      "MUSIC_BOT_NAME": {
+        "description": "𝐀 𝐍𝐀𝐌𝐄 𝐅𝐎𝐑 𝐘𝐎𝐔𝐑 𝐌𝐔𝐒𝐈𝐂 𝐁𝐎𝐓. 𝐀𝐋𝐖𝐀𝐘𝐒 𝐖𝐑𝐈𝐓𝐄 𝐈𝐍 𝐒𝐈𝐌𝐏𝐋𝐄 𝐋𝐄𝐓𝐓𝐄𝐑",
+        "value": "ShizukaXMusic",
+        "required": true
+      },
+      "OWNER_ID": {
+        "description": "𝐅𝐈𝐋𝐋 𝐇𝐄𝐑𝐄 𝐎𝐖𝐍𝐄𝐑 𝐈𝐃, 𝐔 𝐂𝐀𝐍 𝐔𝐒𝐄 𝐌𝐎𝐑𝐄 𝐏𝐄𝐑𝐒𝐎𝐍 𝐈𝐃 𝐁𝐘 𝐆𝐈𝐕𝐄𝐈𝐍𝐆 𝐒𝐏𝐀𝐂𝐄 𝐀𝐅𝐓𝐄𝐑 𝐎𝐍𝐄 𝐈𝐃.",
+        "value": "1829237132",
+        "required": true
+      },
+      "STRING_SESSION": {
+        "description": "𝐅𝐈𝐋𝐋 𝐇𝐄𝐑𝐄 𝐀 𝐒𝐈𝐌𝐏𝐋𝐄 𝐏𝐘𝐑𝐎𝐆𝐑𝐀𝐌 𝐒𝐓𝐑𝐈𝐍𝐆 𝐒𝐄𝐒𝐒𝐈𝐎𝐍, 𝐈𝐅 𝐄𝐑𝐑𝐎𝐑 𝐓𝐇𝐄𝐍 𝐒𝐄𝐍𝐃 𝐄𝐑𝐑𝐎𝐑 𝐒𝐒 𝐓𝐎 𝐑𝐄𝐏𝐎 𝐎𝐖𝐍𝐄𝐑.(𝐆𝐄𝐓 𝐅𝐑𝐎𝐌 = t.me/string_puiibot) . ",
+        "value": "BQBh04T4JnhrwzUZ7NfFuD-ljjEnK4nY7g7AOfOS2TOlIectQ2ZR_VNFwyBFDYiTpMM5QufhgPulJmxWBO7IExiLqSjl1eBQxSHP2pyhDfAt4xwBM3yQc0G25xzim2V8lYnkKTVqH_xM7zWoqi8UatUm6nYJ2r_MlFoKBof9gashYZsPO3J2XJpGEtbckrM4zsyKThQNjXDWh7GciEro5jLWEFtu_IvTkY_aKRrS2kl8RQ4KCXOzMMM7TbvL1-TjS7vHfezA4IFmbuM_s8iJMVB7HpduCKq5bVv1s4eYrEVJV366G1a7DuU0CRVUl-tj01WuFcJs42_S9UT0UMOoBkXnAAAAAG0H8YwA",
+        "required": true
+      },
+      "HEROKU_API_KEY": {
+        "description": "𝐅𝐈𝐋𝐋 𝐇𝐄𝐑𝐄 𝐘𝐎𝐔𝐑 𝐇𝐄𝐑𝐎𝐊𝐔 𝐀𝐂𝐂. 𝐀𝐏𝐈 𝐊𝐄𝐘, 𝐈𝐅 𝐃𝐎𝐍𝐓 𝐊𝐍𝐎𝐖 𝐓𝐇𝐈𝐒 𝐓𝐇𝐄𝐍 𝐋𝐄𝐀𝐕𝐄 𝐓𝐇𝐈𝐒 𝐋𝐈𝐍𝐄 𝐁𝐋𝐀𝐍𝐊",
+        "value": "",
+        "required": false
+      },
+      "HEROKU_APP_NAME": {
+        "description": "𝐅𝐈𝐋𝐋 𝐇𝐄𝐑𝐄 𝐘𝐎𝐔𝐑 𝐀𝐏𝐏 𝐍𝐀𝐌𝐄 𝐖𝐇𝐈𝐂𝐇 𝐅𝐈𝐋𝐋𝐄𝐃 𝐈𝐍 𝐘𝐎𝐈𝐑 𝐅𝐈𝐑𝐒𝐓 𝐋𝐈𝐍𝐄 (𝐀𝐏𝐏 𝐍𝐀𝐌𝐄).",
+        "value": "",
+        "required": false
+      },
+      "LOG_GROUP_ID": {
+        "description": "𝐅𝐈𝐋𝐋 𝐇𝐄𝐑𝐄 𝐋𝐎𝐆 𝐆𝐑𝐎𝐔𝐏 𝐈𝐃 𝐖𝐇𝐄𝐑𝐄 𝐘𝐎𝐔𝐑 𝐁𝐎𝐓 𝐀𝐋𝐖𝐀𝐘𝐒 𝐒𝐓𝐀𝐘 𝐀𝐃𝐌𝐈𝐍 (𝐈𝐃 𝐌𝐔𝐒𝐓 𝐒𝐓𝐀𝐑𝐓𝐄𝐃 𝐖𝐈𝐓𝐇 -100).",
+        "value": "-720812875",
+        "required": true
+      }
+    },
+    "buildpacks": [
+          {
+              "url": "heroku/python"
+          },
+          {
+              "url": "heroku/nodejs"
+          },
+          {
+              "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest.git"
+          }
+      ],
+      "stack": "container"
+  }
